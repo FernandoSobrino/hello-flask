@@ -3,6 +3,7 @@ from flask import render_template
 from balance import app
 from .models import ListaMovimientos
 
+
 @app.route('/')
 def home():
     """
@@ -10,7 +11,7 @@ def home():
     """
     movimientos = ListaMovimientos()
     movimientos.leer_archivo()
-    return render_template("inicio.html",movs=movimientos.lista_movimientos)
+    return render_template("inicio.html", movs=movimientos.movimientos)
 
 
 @app.route('/nuevo')
