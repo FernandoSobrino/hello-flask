@@ -30,11 +30,11 @@
       <tr>
         <td>{{ mov.fecha }}</td>
         <td>{{ mov.concepto }}</td>
-        <td>
+        <td class="tipo">
           {% if mov.tipo == 'I' %}
-            Ingreso
+          Ingreso
           {% else %}
-            Gasto
+          Gasto
           {% endif %}
         </td>
         <td class="numero">{{ mov.cantidad }}</td>
