@@ -1,5 +1,5 @@
 header {
-    background-color: #ff00b3;
+    background-color: #ed02a7c4;
     color: white;
     height: 50px;
     font-size: large;
@@ -46,7 +46,7 @@ table.paper .error {
 .pie-de-pagina {
     margin-top: 40px;
     padding: 20px;
-    border-top: solid 1px #ff00b3;
+    border-top: solid 1px #ed02a7c4;
 }
 
 .lista-vacia {
