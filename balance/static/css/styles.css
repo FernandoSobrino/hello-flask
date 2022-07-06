@@ -37,6 +37,12 @@ table.paper {
     text-align: right;
 }
 
+table.paper .error {
+    font-size: small;
+    padding-left: 40px;
+    color: #990000
+}
+
 .pie-de-pagina {
     margin-top: 40px;
     padding: 20px;
