@@ -8,7 +8,6 @@ Un movimiento debe tener:
 4. Cantidad
 """
 import csv
-from datetime import date, datetime
 from time import strftime
 from . import FICHERO
 
@@ -33,5 +32,7 @@ class ListaMovimientos:
                 mov = Movimiento(linea["fecha"], linea["concepto"],
                                  linea["tipo"], linea["cantidad"])
                 self.movimientos.append(mov)
+
+
 
     
